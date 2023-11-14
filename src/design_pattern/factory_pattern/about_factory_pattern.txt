@@ -1,0 +1,4 @@
+It is creational design pattern
+
+If we have huge code base, and we have multiple implementation for one superclass. And on the basis of some
+condition we want to return object of desired concrete class in that case we should go with Factory Design pattern.

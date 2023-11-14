@@ -1,0 +1,13 @@
+Observer Pattern is one of the behavioral design pattern.
+
+Observer design pattern is useful when you are interested in the state of an object and want to get notified
+whenever there is any change in state.
+
+In observer pattern, the object that watch on the state of another object are called Observer and
+the object that is being watched is called Subject/Observable.
+
+Problem Statement.
+Implement Notify System which will notify different observer whenever there is some stocks comes for an item.
+
+E.g. In amazon if Iphone is Out Of Stock then client will click on Notify-me to get upcoming stock notification.
+Implement this notify feature.
