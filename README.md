@@ -1,3 +1,3 @@
-# Inerview-preparation-notes
+# Interview-preparation-notes
 
 Design Pattern

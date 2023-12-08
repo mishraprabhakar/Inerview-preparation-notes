@@ -14,6 +14,7 @@ public class DsPractice {
 
         List<Integer> integerList = spiralOrderOfInteger(matrix);
         System.out.println(integerList);
+
     }
 
     private static List<Integer> spiralOrderOfInteger(int[][] matrix) {
@@ -65,4 +66,6 @@ public class DsPractice {
         }
         return result;
     }
+
+
 }
