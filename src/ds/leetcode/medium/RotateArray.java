@@ -1,35 +1,40 @@
 package ds.leetcode.medium;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class RotateArray {
     public static void main(String[] args) {
 
         int[] array = {-1,-100,3,99};
         rotateArray(array, 2);
+        System.out.println(Arrays.toString(array));
     }
 
     private static void rotateArray(int[] array, int k) {
 
-        for (int i = 0; i < k; i++) {
-            rotateA(array);
+        if (k > array.length) {
+            k = k % array.length;
         }
+
+        int n = array.length - 1;
+
+        reverseArray(array, 0, array.length - 1);
+        reverseArray(array, 0, k-1);
+        reverseArray(array, k, n );
+
     }
 
-    private static void rotateA(int[] array) {
+    public static void reverseArray(int[] array, int a, int b) {
 
-        int j = array[array.length-1];
-        int temp = 0;
+        int i = a, j = b;
 
-        for (int i = 0; i < array.length; i++) {
-            if (i == 0) {
-                temp = array[i];
-                array[i] = j;
-            } else {
-                int value = array[i];
-                array[i] = temp;
-                temp = value;
-            }
+        while (i < j) {
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+            i++;
+            j--;
         }
     }
 }

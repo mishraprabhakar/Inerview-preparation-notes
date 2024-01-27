@@ -47,10 +47,13 @@ public class Laptop implements Comparable<Laptop>{
 
     @Override
     public int compareTo(Laptop o) {
-        if (this.getPrice() < o.getPrice()){
-            return 1;
-        }else{
-            return -1;
+        int priceComparison = Integer.compare(this.getPrice(), o.getPrice());
+
+        // If prices are equal, compare based on brand name
+        if (priceComparison == 0) {
+            return this.getBrand().compareTo(o.getBrand());
         }
+
+        return priceComparison;
     }
 }

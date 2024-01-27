@@ -36,6 +36,7 @@ public class IphoneObservable implements StockObservable {
     public int getStockCount() {
         return stockCount;
     }
+
     @Override
     public void setStockCount(int newStockAdded) {
         stockCount = stockCount + newStockAdded;

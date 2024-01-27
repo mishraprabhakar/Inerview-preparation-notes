@@ -6,7 +6,7 @@ import java.util.Map;
 public class RomanToInteger {
     public static void main(String[] args) {
 
-        String s = "VII";
+        String s = "LIX";
 
         int a = findRomanToInteger(s);
         System.out.println(a);

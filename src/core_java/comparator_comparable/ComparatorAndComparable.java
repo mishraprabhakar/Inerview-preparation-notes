@@ -13,6 +13,7 @@ public class ComparatorAndComparable {
         laptopList.add(new Laptop("HP", 8, 20000));
         laptopList.add(new Laptop("DELL", 12, 30000));
         laptopList.add(new Laptop("APPLE", 8, 50000));
+        laptopList.add(new Laptop("DELL", 8, 50000));
 
         Collections.sort(laptopList);
 

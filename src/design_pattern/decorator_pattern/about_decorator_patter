@@ -1,0 +1,8 @@
+Let say we have base object feature, and we have to add feature with base object feature, in that case we can wrap base feature
+object with feature 2.
+
+Now this feature 2 is also an object and in case of enhancing it's feature it can also be integrated with some
+more additional feature
+
+E.g. We have Base Pizza how we have variety of options for toppings, Now using decorator design pattern we can
+decorate base pizza with different toppings depending upon customer requirements.
