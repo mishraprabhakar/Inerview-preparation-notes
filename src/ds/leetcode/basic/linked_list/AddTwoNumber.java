@@ -65,6 +65,7 @@ public class AddTwoNumber {
             tail.next = new ListNode(digit);
             tail = tail.next;
         }
+
         return result.next;
     }
 }

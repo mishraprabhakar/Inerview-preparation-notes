@@ -10,11 +10,11 @@ public class LossCoupling {
         //Now you can run your computer with any keyboard that you want
 
         //case : 1 I want to run my Computer with Dell Laptop
-        DellKeyboard dell = new DellKeyboard();
+        Keyboard dell = new DellKeyboard();
         computer.display(dell);
 
         //case : 2 Now I want to run my computer with Lenovo Keyboard
-        LenovoKeyBoard lenovoKeyBoard = new LenovoKeyBoard();
+        Keyboard lenovoKeyBoard = new LenovoKeyBoard();
         computer.display(lenovoKeyBoard);
 
 

@@ -37,7 +37,7 @@ then in motorcycle we can use of engineStart() method but in bicycle it is of no
 
 Therefore, Bicycle class trying to narrowing TwoWheeler Interface.
 
-### I --> Interface Segmented Principle
+### I --> Interface Segmented Principle / Interface Segregation Principle
 
 It states that interfaces should be such that, client should not implemented unnecessary functions they do not need.
 

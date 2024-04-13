@@ -12,7 +12,6 @@ public class JumpGame {
 
     private static boolean jumpGame(int[] nums) {
 
-
         int finishLine = nums.length-1;
 
         for (int i = nums.length-2; i >= 0; i--) {
@@ -21,7 +20,6 @@ public class JumpGame {
                 finishLine = i;
             }
         }
-
         return finishLine==0;
     }
 }

@@ -7,7 +7,6 @@ public class AccessingSuperClassMethodsAndVarWithSuper {
         System.out.println(obj.i);
         obj.show();
     }
-
 }
 
 class A{
